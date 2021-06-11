@@ -8,7 +8,7 @@ minute data from 1 minute format.
 
 import csv
 
-def create_csv(input_f, output_f, timeformat):                    #sort from old to new
+def create_csv(input_f, output_f, timeformat):                  
     input = open(input_f, 'r', newline='')
     my_csv_data = list(input)
     high_list = list()
